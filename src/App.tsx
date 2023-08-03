@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { AppRouter } from './components';
 import Navbar from './components/Navbar/Navbar';

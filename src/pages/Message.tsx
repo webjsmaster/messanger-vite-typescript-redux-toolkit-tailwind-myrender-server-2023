@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 
 const Message: FC = () => {
   return <div>Message</div>;
