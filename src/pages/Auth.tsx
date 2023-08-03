@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
 const Auth: FC = () => {
-  return <div></div>;
+  return <div>Auth</div>;
 };
 
 export default Auth;

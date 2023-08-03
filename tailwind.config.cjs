@@ -3,11 +3,11 @@ const constants = {
   myBlue: '#6366f1',
 };
 module.exports = {
+  important: true,
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
-        transparent: 'transparent',
         current: 'currentColor',
         ...constants,
       },

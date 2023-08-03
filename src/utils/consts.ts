@@ -1,8 +1,8 @@
-export const ROUTE = {
-  ADMIN_ROUTE: '/admin',
+import { IPath } from '../types/router';
+
+export const ROUTE: IPath = {
+  MESSAGE_ROUTE: '/message',
+  PROFILE_ROUTE: '/profile',
   LOGIN_ROUTE: '/login',
   REGISTRATION_ROUTE: '/registration',
-  SHOP_ROUTE: '/',
-  BASKET_ROUTE: '/basket',
-  DEVICE_ROUTE: '/device',
 };
