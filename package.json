@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "proxy": "http://0.0.0.0:$PORT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
